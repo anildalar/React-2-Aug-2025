@@ -1,0 +1,462 @@
+HomePage
+BusinessListing
+BusinessDetail 
+
+
+https://nidhisharma4399.github.io/Justdial.com/
+
+Frontend Static Design Done (HTML5 + CSS3 + BS5 + JS)
+
+Frontend Framework
+  Meta  -> Facebook
+
+	ReactJs		(Facebook)
+	AngularJs	(Google)
+	VueJs		(Mr Evan You)
+
+Google Trends
+
+Single Page Applications
+
+How we can use ReactJs ?
+1. Using CDN Link (Not Recommended)
+2. Using NodeJS command  (Recommended)
+
+	2.1 npm install -g create-react-app (only one time)
+	2.2 npx create-react-app react1 (Old/Depricate)
+	2.3 npm create vite@latest react2 -- --template react  (Newer) 
+
+npx create-react-app react2
+
+npx create-react-app react3
+
+npm = node package manager
+npx = node package execute
+
+
+How to start your reactJs Application ?
+	npm start
+
+
+https://www.w3schools.com/react
+https://react.dev/
+
+
+
+npm install   -> package.json
+
+
+npm create vite@latest my-app -- --template react
+
+npm run dev 
+
+npx create-react-app my-react-app
+
+npm start    ------>  port no 3000
+
+
+
+
+Backend Technology
+	Strapi
+
+
+
+3000 - 5173
+	
+
+Port Range
+0 - 65535
+
+
+HTML Template ----> ReactJs
+
+HomePage
+BusinessListing
+BusinessDetail      -> ReactJs
+
+
+
+JavaScript ES6 (2015)
+
+Let
+Const
+... 
+class A{}
+ES6 Arrow Functions
+
+Facebook ReactJs
+
+
+
+
+
+.html
+.css
+.js
+.png/.jpeg
+
+
+
+.jsx
+
+ReactJs Files
+
+.jsx = XML
+JavaScript Extensible Markup Language
+
+
+
+<div>
+
+</div>
+<header>
+
+</header>
+
+
+Empty Tag
+<>
+</>
+
+
+ReactJs App uses Hot Reloading
+
+<img />      Single Tags
+<div></div> Paired Tags
+
+Import Export
+
+
+Variable
+fname="Anil"
+
+CSS Selectors
+1. 
+
+
+How we can include BS5 in ReactJs App.
+
+Reusable UI Components
+Using
+1. Import/Export
+
+
+How to deploy a ReactJs App?
+
+GitHub Pages ?
+
+Netlify
+Vercel
+
+
+HTML Template   --Convert---> React App
+
+HTML+CSS+BS+JS   ----------> React App
+
+https://github.com/Nidhisharma4399/Justdial.com.git
+
+push = Upload
+pull = Download
+clone = Download
+
+
+git clone <repoLink> -b <branchName> <location>
+
+https://github.com/Kavish-22/Justdial/tree/masterds
+
+Repo Link  .git
+https://github.com/Kavish-22/Justdial.git
+
+
+SPA = Single Page Application
+
+RFC ?
+
+React Functional Component
+
+RCC ?
+React Class Component  (Deprecated)
+
+
+
+AppComponent = HomeComponent
+
+
+1. Home
+2. BusinessListing
+3. BusinessDetail
+
+
+
+Header
+Main
+Footer
+
+npm i -D react-router-dom@latest
+npm i react-router-dom  7.6.3
+
+http://localhost:5173   		-> HomeComponent 
+http://localhost:5173/businesslisting   -> BusinessListing
+http://localhost:5173/businessdetail    -> BusinessDetail
+
+
+<StartTag attribute1="/" attribute2={<HomeComponent />} />
+
+<img src="" />
+<Route path="/" element={<HomeComponent />} />
+
+
+HTML = Attributes
+React = Properties Props
+
+
+
+somelib  -->  node_modules
+
+import React from 'react'   --> node_modules/
+./ = Current Directory
+../ = Go TO Parent Directory
+
+
+DRY = Don't Repeat Yourself
+
+
+React Outlet Component To Follow DRY Principle
+
+
+I will start todays lecture from scratch ?
+npm create vite@latest react4 -- --template react
+
+
+
+localhost:5173  	-> HomePage
+localhost:5173/first	-> FirstPage
+localhost:5173/second	-> SecondPage
+
+
+What is the entrypoint JS file for ReactJs APP ?
+main.jsx
+
+
+
+<div class="" ></div>
+<Route path="" element={} />
+
+NoPage = 404
+
+How to create a web layout in Reacts ?
+
+1.HomePage
+2.FirstPage
+3.SecondPage
+
+
+
+React UI Libraries
+1. Bootstrap
+2. MUI (Mostly Used)
+3. AntDesign
+
+
+MUI (Mostly Used)
+
+
+<Box>Anil</Box>  ---> <div>Anil</div>
+
+
+
+
+
+
+http://localhost:5173//blogs ----> Blog
+http://localhost:5173/blogs ----> Blog
+
+
+<div attribute="value"></div>  ---> Tag
+<Box props1="" ></Box>  ---> ReactComponents
+
+JS Object
+{ 
+   //1. P:V
+   p:v,
+   p:v
+   //2. Method
+}
+
+
+<input type="checkbox" checked >
+<input type="text" readonly >
+
+React UI Libraries
+1. Bootstrap
+2. MUI (Mostly Used)
+3. AntDesign
+
+
+Basic Web Layout using AntDesign
+
+Setup Basic Web Layout using Outlet Component
+
+
+const [var,SetFunction] = useState(initialValue);
+const [age,setAge]       = useState(30);
+1. Setup a basic web layout containing 3 pages with navigation using MUI In ReactJs?
+
+2. What are Hooks Variable in ReactJs?
+
+
+
+ReactJs
+
+1. JavaScript
+2. TypeScript  --> JavaScript Advanced Version Deveoped by MicroSoft
+
+
+C  --> C++
+
+
+UL parent
+  Li  Child
+
+Menu
+  MenuItem Child
+What is 2way binding in ReactJs ?
+
+HookVariable = StateVariable
+
+Do a simple create operation in ReactJs ?
+
+1. Frontend
+	ReactJs
+	Form
+	    Enter your friend name?
+	    Submit
+
+2. Backend -> Strapi
+	Datbase
+   Create PUBLIC API
+   Inorder to get complete api details we use
+   Strapi Documentation Plugin
+    
+
+To Prepare your payload as per the api 
+
+{
+  "data": {
+    "name": "C"
+  }
+}
+
+1. Function define
+2  Fucntion Call
+
+
+Now our Payload is ready
+
+We have to make api call using
+1. XMLHTTPRequest Class (JS)
+2. Fetch API (JS)
+3. AXIOS 3rd party Library  -> npm install axios 
+
+
+
+
+fetch(url, options)
+  .then(response => {
+    // Handle the response
+    // For example, parse JSON:
+    return response.json();
+  })
+  .then(data => {
+    // Work with the parsed data
+    console.log(data);
+  })
+  .catch(error => {
+    // Handle any errors during the fetch operation
+    console.error('Error:', error);
+  });
+
+
+Fetch APi is a Promise Chain
+
+fetch().then().then().then()....catch().finally();
+
+
+Train 
+
+
+
+Create a simple create operation using Fetch/AXIOS Library.
+Must Have
+1. More  than 2 fields
+2. Sweet Alert (3rd Party Lib)
+3. MUI   (3rd Party Lib)
+4. Axios (3rd Party Lib)
+5. Must have a single Hook Variable
+6. Must have a single HandleChange function
+
+
+
+Spread Operator/Copy Operator
+...
+
+Ternary Operator
+C ? T : F ;
+ 
+
+Create a simple create operation using Fetch/AXIOS Library.
+Must Have
+1. More  than 2 fields
+2. Sweet Alert (3rd Party Lib)
+3. MUI   (3rd Party Lib)
+4. Axios (3rd Party Lib)
+6. React Router Dom  One Page --> Second Page
+7. Must have a single Hook Variable
+8. Must have a single HandleChange function
+
+
+
+/
+<Layout>
+	<Home/>
+</Layout>
+
+/blogs
+<Layout>
+	<Blog/>
+</Layout>
+
+/contact
+<Layout>
+	<contact/>
+</Layout>
+
+/askdflaks
+<Layout>
+	<NoPage/>
+</Layout>
+
+
+
+Input --> Event  --> handleChange(e)
+	Focus
+	Blur
+	KeyDown
+	KeyUp
+Anil
+
+A
+
+optional chaining operator
+Which operator is this ?
+?.
+
+??
+
+
+
+
+
+
+
